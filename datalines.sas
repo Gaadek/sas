@@ -3,6 +3,7 @@ data ds_in_01;
 			subjectid format=8.
 	;
 	
+	*-- Sample data --*;
 	infile datalines delimiter=',';
 	input subject $ subjectid;
 	datalines;
